@@ -1,5 +1,9 @@
 # Recommend-System-Baseline
 
+This repository is the collection of pdf,code for some commom Recommendation Systems(RS), which helps researcher to quick find some baseline for their model comparison.
+
+---
+
 1. Pop : POP (popular products): this model recommends the most popular products in the training set. Though POP is simple, it is often a strong baseline in certain domains. [[python]](https://github.com/chenghu17/Sequential_Recommendation)
 
 2. ItemKNN : this model is based on the co-occurrences of products in the baskets. This is one of the most common item-to-item recommendation in the form users who bought X also bought Y. [[pdf]](https://dl.acm.org/citation.cfm?id=372071), [[python]](https://github.com/caserec/CaseRecommender)
