@@ -17,7 +17,7 @@ representations from their titles. A basket’s representation is calculated as 
 
 8. HRM : It is a Hierarchical Representation Model which captures both sequential and general user tastes by introducing both linear and nonlinear pooling operation for historical transaction aggregation. Here, the average aggregation is adopted.[(python)-implementation](https://github.com/chenghu17/Sequential_Recommendation)
 
-9. PRME : This is model was originally proposed for POI recommendation. It utilizes metric embedding to learn user and item embeddings as well as the user check-in sequences.
+9. PRME : This is model was originally proposed for POI recommendation. It utilizes metric embedding to learn user and item embeddings as well as the user check-in sequences. [(python)-implementation](https://github.com/flaviovdf/prme)
 
 10. TransRec : This model applies the idea of translating embeddings to sequential recommendation. It views users as relation vectors and assumes that the next item is determined by user’s recent interacted item plus the user relation vectors. [(c++)-implementation](https://drive.google.com/file/d/0B9Ck8jw-TZUEVmdROWZKTy1fcEE/view)
 
@@ -36,13 +36,17 @@ representations from their titles. A basket’s representation is calculated as 
 ### Reference:
 The the above information is taken from paper link or github below,
 
-1. [(Paper) Learning Representations from Product Titles for Modeling Large-scale Transaction Logs](https://arxiv.org/abs/1811.01166)
-2. [(Paper) Next Item Recommendation with Self-Attention](https://arxiv.org/abs/1808.06414)
-----
-3. [(Github) Case Recommender - A Python Framework for RecSys](https://github.com/caserec/CaseRecommender)
-4. [(Github deeplearner)](https://github.com/lecheng/deeplearner)
-5. [(Github) doc2vec](https://github.com/jhlau/doc2vec)
-6. [(Github) prod2vec](https://github.com/lecheng/deeplearner)
-7. [(Github) FPMC](https://github.com/flaviovdf/fpmc)
-8. [(Github) Sequential_Recommendation](https://github.com/chenghu17/Sequential_Recommendation)
-9. [(Github) TransFM](https://github.com/rpasricha/TransFM)
+[(Paper) Learning Representations from Product Titles for Modeling Large-scale Transaction Logs](https://arxiv.org/abs/1811.01166) <br>
+[(Paper) Next Item Recommendation with Self-Attention](https://arxiv.org/abs/1808.06414) <br>
+
+---
+
+[(Github) Case Recommender - A Python Framework for RecSys](https://github.com/caserec/CaseRecommender) <br>
+[(Github deeplearner)](https://github.com/lecheng/deeplearner) <br>
+[(Github) doc2vec](https://github.com/jhlau/doc2vec) <br>
+[(Github) prod2vec](https://github.com/lecheng/deeplearner) <br>
+[(Github) FPMC](https://github.com/flaviovdf/fpmc) <br>
+[(Github) Sequential_Recommendation](https://github.com/chenghu17/Sequential_Recommendation) <br>
+[(Github) TransFM](https://github.com/rpasricha/TransFM) <br>
+[(Github) Caser](https://github.com/graytowne/caser) <br>
+[(Github) PRME](https://github.com/flaviovdf/prme) <br>
