@@ -9,22 +9,21 @@
 4. doc2vec : a model for learning text representations. We apply doc2vec to obtain the product
 representations from their titles. A basket’s representation is calculated as the mean of the products contained in it. Given a basket, we calculate the cosine similarities between the basket’s representation and all potential products, and pick top-N similar products.  [(python)-implementation](https://github.com/jhlau/doc2vec)
 
-5. BPR-MF:  It optimizes the matrix factorization in a pairwise manner with Bayesian Personalized Ranking loss, which aims to maximize the difference between positive and negative items. It does not model the sequential signals.  [(python)-implementation](https://github.com/caserec/CaseRecommender), [version-2](https://github.com/chenghu17/Sequential_Recommendation)
+5. BPR-MF:  It optimizes the matrix factorization in a pairwise manner with Bayesian Personalized Ranking loss, which aims to maximize the difference between positive and negative items. It does not model the sequential signals.  [(python)-implementation](https://github.com/caserec/CaseRecommender), [(python)-2](https://github.com/chenghu17/Sequential_Recommendation)
 
 6. FMC: is is a simplified version of factorized personalized Markov Chain (FPMC) which does not include user personalized behaviours.
 
-7. FPMC : is approach combines matrix factorization machine with Markov Chain for next item recommendations. The proposed approach captures both user-item preferences and user sequential behaviours. [(python)-implementation](https://github.com/flaviovdf/fpmc), [version-2](https://github.com/chenghu17/Sequential_Recommendation)
+7. FPMC : is approach combines matrix factorization machine with Markov Chain for next item recommendations. The proposed approach captures both user-item preferences and user sequential behaviours. [(python)-implementation](https://github.com/flaviovdf/fpmc), [(python)-2](https://github.com/chenghu17/Sequential_Recommendation)
 
-8. HRM : It is a Hierarchical Representation Model which captures both sequential and general user tastes by introducing both linear and nonlinear pooling operation for historical transaction aggregation. Here, the average aggregation is adopted.[(python)-implementation]((https://github.com/chenghu17/Sequential_Recommendation))
+8. HRM : It is a Hierarchical Representation Model which captures both sequential and general user tastes by introducing both linear and nonlinear pooling operation for historical transaction aggregation. Here, the average aggregation is adopted.[(python)-implementation](https://github.com/chenghu17/Sequential_Recommendation)
 
 9. PRME : This is model was originally proposed for POI recommendation. It utilizes metric embedding to learn user and item embeddings as well as the user check-in sequences.
 
-10. TransRec : This model applies the idea of translating embeddings to sequential recommendation. It views users as relation vectors and assumes that the next item is determined by user’s recent interacted item plus the user relation vectors.
+10. TransRec : This model applies the idea of translating embeddings to sequential recommendation. It views users as relation vectors and assumes that the next item is determined by user’s recent interacted item plus the user relation vectors. [(c++)-implementation](https://drive.google.com/file/d/0B9Ck8jw-TZUEVmdROWZKTy1fcEE/view)
 
 11. TransFM : This model combines translation and metricbased approaches for sequential recommendation with Factorization Machines. [(python)-implementation](https://github.com/rpasricha/TransFM)
 
-11. Caser : It models user past historical interactions with both hierarchical and vertical convolutional neural networks. It also considers the skip behaviors and the whole
-network is optimized by minimizing the cross entropy. 
+11. Caser : It models user past historical interactions with both hierarchical and vertical convolutional neural networks. It also considers the skip behaviors and the whole network is optimized by minimizing the cross entropy. [(matlab)-implementation](https://github.com/graytowne/caser)
 
 11. SHAN : Sequential Recommender System based on Hierarchical Attention Network [(python)-implementation](https://github.com/chenghu17/Sequential_Recommendation)
 
@@ -46,3 +45,4 @@ The the above information is taken from paper link or github below,
 6. [(Github) prod2vec](https://github.com/lecheng/deeplearner)
 7. [(Github) FPMC](https://github.com/flaviovdf/fpmc)
 8. [(Github) Sequential_Recommendation](https://github.com/chenghu17/Sequential_Recommendation)
+9. [(Github) TransFM](https://github.com/rpasricha/TransFM)
