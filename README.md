@@ -1,5 +1,4 @@
 # Recommend-System-Baseline
-Some common recommendation system baseline, with description and link.
 
 1. Pop : POP (popular products): this model recommends the most popular products in the training set. Though POP is simple, it is often a strong baseline in certain domains.
 
