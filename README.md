@@ -12,7 +12,7 @@ representations from their titles. A basket’s representation is calculated as 
 5. BPR-MF:  It optimizes the matrix factorization in a pairwise manner with Bayesian Personalized Ranking loss, which aims to maximize the difference between positive
 and negative items. It does not model the sequential signals.
 
-6.  FMC: is is a simplied version of factorized personalized Markov Chain (FPMC) which does not include user personalized behaviours.
+6.  FMC: is is a simplified version of factorized personalized Markov Chain (FPMC) which does not include user personalized behaviours.
 
 7. FPMC : is approach combines matrix factorization machine with Markov Chain for next item recommendations. The proposed approach captures both user-item preferences and user sequential behaviours.
 
