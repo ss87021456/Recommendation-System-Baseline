@@ -46,7 +46,7 @@ The the above information is taken from paper link or github below,
 ---
 
 [(Github) Case Recommender - A Python Framework for RecSys](https://github.com/caserec/CaseRecommender) <br>
-[(Github deeplearner)](https://github.com/lecheng/deeplearner) <br>
+[(Github) deeplearner](https://github.com/lecheng/deeplearner) <br>
 [(Github) doc2vec](https://github.com/jhlau/doc2vec) <br>
 [(Github) prod2vec](https://github.com/lecheng/deeplearner) <br>
 [(Github) FPMC](https://github.com/flaviovdf/fpmc) <br>
